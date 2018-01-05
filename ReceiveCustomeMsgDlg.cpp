@@ -99,7 +99,6 @@ if(wParam==0 && lParam==0)
 {
 	
 	GetDlgItem(btnTagMessage)->EnableWindow(TRUE);
-	pause(1);
     AfxMessageBox("按钮已被启用");
 }
 return true;
